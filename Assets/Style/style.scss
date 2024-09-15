@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+}
+
+body {
+    background: url(../images/bg.jpg) top/cover fixed ; }
+    header H1,p,a {
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+    .box {
+        background-color: whitesmoke;
+        margin: 100px 80px;
+    }
+    nav ul {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        background: transparent
+    }
+       
+    
+  

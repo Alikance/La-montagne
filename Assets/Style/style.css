@@ -1,1 +1,38 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+}
+
+body {
+  background: url(../images/bg.jpg) top/cover fixed;
+}
+
+header H1, p, a {
+  display: block;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.box {
+  background-color: whitesmoke;
+  margin: 100px 80px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: transparent;
+}/*# sourceMappingURL=style.css.map */
